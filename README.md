@@ -31,3 +31,8 @@ sudo apt-get install at
 XDG_RUNTIME_DIR=/run/user/1000
 0 0 * * 1, 2, 3, 4, 5 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/progedu/campus-chime/master/chime.sh)"
 ```
+
+動作確認用（時間は近い時間を設定する）
+```
+* * * * * /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rntkym/chime-test/master/chime.sh)"
+```
