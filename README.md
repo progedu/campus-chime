@@ -22,5 +22,6 @@ sudo apt-get install at
 ```
 5. 平日0時にシェルスクリプトを実行するためにcronを設定する
 ```
+XDG_RUNTIME_DIR=/run/user/1000
 0 0 * * 1, 2, 3, 4, 5 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/progedu/campus-chime/master/chime.sh)"
 ```
