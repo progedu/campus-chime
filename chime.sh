@@ -1,4 +1,4 @@
-#! bin/bash
+#!/bin/bash
 echo "mpg321 /home/pi/chime/chime.mp3" | at 9:30
 echo "mpg321 /home/pi/chime/chime.mp3" | at 9:45
 echo "mpg321 /home/pi/chime/chime.mp3" | at 10:35
